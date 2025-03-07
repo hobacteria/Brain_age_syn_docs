@@ -31,7 +31,9 @@ We use Python 3.10 in our pipeline and strongly recommend running *** in a anaco
    pip install pandas==2.2.3
    
 fastsurfer in docker hub in https://github.com/Deep-MI/FastSurfer
+
 .. code-block:: console
+
    docker pull deepmi/fastsurfer:latest
 
 pytorch with GPU in https://pytorch.org/get-started/locally/
