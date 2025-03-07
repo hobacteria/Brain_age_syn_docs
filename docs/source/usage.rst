@@ -3,32 +3,35 @@ Usage
 
 .. _installation:
 
-Installation
+1.Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use *** , directely clone repository to your local enviroment.
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   git clone https://github.com/hobacteria/Brain_age_syn.git
 
-Creating recipes
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. _dependency:
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+2.Dependency
+------------
 
-.. autoexception:: lumache.InvalidKindError
+There are several packages required to run the project pipeline.
 
-For example:
+.. code-block:: console
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   pip install monai==1.4.0
+   
+.. code-block:: console
+
+   pip install nibabel
+
+.. code-block:: console
+
+   pip install scikit-image
+
+and pytorch with GPU in https://pytorch.org/get-started/locally/
 
