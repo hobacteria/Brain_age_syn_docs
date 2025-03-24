@@ -35,9 +35,9 @@ Additinally, you need to install some software.
 Freesurfer 7.X in https://surfer.nmr.mgh.harvard.edu/fswiki/rel7downloads
 Fastsurfer in docker hub from https://github.com/Deep-MI/FastSurfer
 Docker 20.10.X in https://docs.docker.com/engine/release-notes/20.10/
+pytorch with GPU in https://pytorch.org/get-started/locally/
+
 .. code-block:: console
 
    docker pull deepmi/fastsurfer:latest
 
-
-pytorch with GPU in https://pytorch.org/get-started/locally/
