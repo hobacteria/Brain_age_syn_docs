@@ -23,7 +23,7 @@ There are several main packages required to run the project pipeline.
 
 We use Python 3.10 in our pipeline and strongly recommend running LS-MAT in a anaconda virtual environment to ensure clear dependency management.   
 
-For detialed package requirments, please check [here](https://github.com/hobacteria/Brain_age_syn/blob/master/requirements.txt)   
+For detialed package requirments, please check `here <https://github.com/hobacteria/Brain_age_syn/blob/master/requirements.txt>`_
 
 .. code-block:: console
 
